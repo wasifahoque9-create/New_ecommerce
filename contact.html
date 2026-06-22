@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meridian — Supply Chain Operations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<title>Contact Us</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .contact-container {
+        width: 400px;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .contact-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #121358;
+    }
+
+    .input-box {
+        margin-bottom: 15px;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .input-box textarea {
+        resize: none;
+        height: 120px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        background: #121358;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #F59E0B;
+    }
+</style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h2>Contact Us</h2>
+
+    <form>
+        <div class="input-box">
+            <input type="text" placeholder="Your Name" required>
+        </div>
+
+        <div class="input-box">
+            <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="input-box">
+            <input type="text" placeholder="Subject" required>
+        </div>
+
+        <div class="input-box">
+            <textarea placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+
+</body>
+</html>
